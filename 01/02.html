@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="02.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<h1 class="text-center">Thông tin chi tiết</h1>
+	 <hr>
+
+  <div class="hinhanh" >
+   <div class="" ><img src="01.png" class="img-responsive"></div>
+</div>
+    <div class="hinhanh" >
+    	<div class="container">
+  			<ul class="list-group list-group-flush">
+    			<li class="list-group-item">Tên sản phẩm: Dép Tổ Ong</li>
+    			<li class="list-group-item">Giá: 1,800,000đ</li>
+    			<li class="list-group-item">Người bán: Nguyễn Quốc Duy</li>
+    			<li class="list-group-item">SDT: 097542722</li>
+    			<li class="list-group-item">Mô tả: dép tổ ong là một loại dép truyền thống của việt nam có từ thời xa xưa. Chúng tôi đã rất cố gắng để tìm một đôi dép mạ vàng 24k (nghi vấn là được mang từ thời vua Hàm Nghi) đến nay có thể là gần 200 năm.</li>
+    			<li class="list-group-item">
+    				<div>Lịch sử giao dịch sản phẩm</div>
+    				<br>
+					<input class="form-control" id="myInput" type="text" placeholder="Search..">
+					<br>
+					<table class="table table-bordered">
+					<thead>
+					<tr>
+					<th>Thời Điểm</th>
+					<th>Người mua</th>
+					<th>Giá</th>
+					</tr>
+					</thead>
+					<tbody id="myTable">
+					<tr>
+					<td>1/11/2019 10:43</td>
+					<td>****Khoa</td>
+					<td>1,800,000đ</td>
+					</tr>
+					<tr>
+					<td>1/11/2019 9:43</td>
+					<td>****Quang</td>
+					<td>1,000,000đ</td>
+					</tr>
+					<tr>
+					<td>1/11/2019 8:43</td>
+					<td>****Tuấn</td>
+					<td>1,500,000đ</td>
+					</tr>
+					<tr>
+					<td>1/11/2019 7:43	</td>
+					<td>****Minh</td>
+					<td>150,000đ</td>
+					</tr>
+					</tbody>
+					</table>
+					
+				</li>
+  			</ul>
+		</div>
+    </div>
+
+ 
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+</body>
+</html>
