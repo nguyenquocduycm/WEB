@@ -1,0 +1,19 @@
+
+
+$('#btnClickMe').on('click', function () {
+   var NamSinh;
+ NamSinh = prompt("Bạn sinh năm bao nhiêu ? : ","");
+})
+
+$('.cl').on('click', function () {
+  //alert($(this).html());
+  // alert('link clicked');
+alert('Người thắng không thanh toán');
+ var NamSinh;
+ NamSinh = prompt("Bạn sinh năm bao nhiêu ? : ","");
+})
+
+
+
+
+

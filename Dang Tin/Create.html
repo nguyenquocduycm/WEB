@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dangtin</title>
+
+        <link rel="stylesheet" href="bootstrap.css" />   
+    <link rel="stylesheet" href="site.css" />
+     <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+  <script>tinymce.init({selector:'textarea'});</script>
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            
+<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.css" rel="stylesheet">
+
+<h1>Đăng tin</h1>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form enctype="multipart/form-data" method="post">
+            
+            <div class="form-group">
+                <label class="control-label" for="Title">Tên sản phẩm</label>
+                <input class="form-control" type="text" data-val="true" data-val-maxlength="The field Title must be a string or array type with a maximum length of &#x27;50&#x27;." data-val-maxlength-max="50" data-val-required="The Title field is required." id="Title" maxlength="50" name="Title" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Title" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Description">Miêu tả</label>
+                <textarea class="form-control" id="Description" name="Description"></textarea>
+                <span class="text-danger field-validation-valid" data-valmsg-for="Description" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Price">Giá khởi điểm</label>
+                <input class="form-control" type="text" data-val="true" data-val-number="The field Price must be a number." data-val-required="The Price field is required." id="Price" name="Price" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Price" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Discount">Bước giá</label>
+                <input class="form-control" type="number" data-val="true" data-val-range="The field Discount must be between 0 and 50." data-val-range-max="50" data-val-range-min="0" data-val-required="The Discount field is required." id="Discount" name="Discount" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Discount" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Amount">Giá mua ngay</label>
+                <input class="form-control" type="number" data-val="true" data-val-required="The Amount field is required." id="Amount" name="Amount" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Amount" data-valmsg-replace="true"></span>
+            </div>
+           
+            <div class="form-group">
+                <label class="control-label" for="MainImage">MainImage</label>
+                <input name="MainImage" type="file" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">More image</label>
+                <input name="MoreImage" type="file" class="form-control" multiple="multiple" />
+                <input name="MoreImage" type="file" class="form-control" multiple="multiple" />               
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8MughD1jgZxFoT_y8ivdL7wh2DuHUZrcUXasnU_C644mUBwIqB1Fn768nZ4lApOrg_FYdo6p5atCH0qyh5HkD8IGTc3UAeh0QKvx4X9aBqmtB4VMnLKQa5E8miLaSbnA5inwWIl1L0aMu7PoY65RjT8" /></form>
+    </div>
+</div>
+
+        </main>
+    </div>
+       
+        <script src="jquery.js"></script>
+        <script src="bootstrap.bundle.js"></script>   
+    <script src="site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.js"></script>
+    <script>
+        $(function () {
+            $('#Description').summernote({
+                placeholder: 'Description for product',
+                tabsize: 2,
+                height: 200
+            });
+        });
+    </script>
+
+</body>
+</html>
