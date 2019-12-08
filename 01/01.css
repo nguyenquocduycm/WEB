@@ -133,3 +133,86 @@ div.right
 
 	float: right;
 }
+
+
+
+
+
+
+
+ #navbar {
+  display: flex;
+  position: relative;
+ 
+}
+
+
+ #navbar .navbarweb {
+  margin-top: -50px;
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #363636;
+  
+}
+
+ #navbar .navbarweb h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-top: 10px;
+  color: #F4A460;
+  background: #4F4F4F;
+  height: 50px;
+}
+
+ #navbar .navbarweb h2 i {
+  padding-right: 10px;
+}
+
+ #navbar .navbarweb a {
+  text-decoration: none;
+}
+
+ #navbar .navbarweb ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ #navbar .navbarweb li {
+  list-style: none;
+  padding: 15px;
+}
+
+ #navbar .navbarweb ul li a {
+  color: white;
+}
+
+ #navbar .navbarweb ul li:hover {
+  background: #4A708B;
+  cursor: pointer;
+}
+
+ #navbar .navbarweb ul li a i {
+  padding-right: 20px;
+}
+
+ .facebookBtn,.googleBtn,.githubBtn{
+   display: inline-block;
+   background: none;
+   border: none;
+   border-radius: 20px;
+   /* display: flex; */
+   background: #8C3939;
+   height: 40px;
+   width: 40px;
+   padding:5px;
+
+}
+
+#navbar .socialmedia {
+  position: absolute;
+  bottom: 0;
+  margin-left: 35px;  
+}
