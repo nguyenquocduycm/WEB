@@ -1,0 +1,25 @@
+.main{
+width: 70%;
+padding: 10px;
+}
+
+.list-content{
+	background-color: #ebebeb;
+	overflow: auto;
+	margin-top: 10px;
+}
+
+.element-list-product{
+float: left;
+margin: 0px 20px 20px 20px;
+}
+
+.element-list-product div{
+	margin: 10px;
+}
+
+.list-content img{
+	float: left;
+	width: 200px;
+	height: 200px;
+}

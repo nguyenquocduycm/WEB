@@ -1,0 +1,44 @@
+tất cả nội dung:
+phần 1:
+	1.1
+	1.2
+	1.3
+	1.4
+		1.4.1
+	1.5
+	1.6
+phần 2:
+	2.1
+	2.2
+	2.3
+	2.4
+	2.5
+phần 3:
+	3.1
+	3.2
+	3.3
+	3.4
+phần 4:
+	4.1
+	4.2
+	4.3
+phần 5:
+	5.1
+	5.2
+	5.3
+	5.4
+phần 6:
+	6.1
+	6.2
+(mở rộng)
+phần 7:
+	7.1
+	7.2
+	7.3
+phân công công việc:
+phần 1: DU
+phần 2: DUY
+phần 3: Đoan
+Phần 4: Huy
+Phần 5: Huy + Đoan
+Phần 6: Du + Duy

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div class="headbar">
+            <div class="logo">
+                <img src="../index/logo.png" width="50px" height="50px">
+            </div>
+            <div class="menu">
+                <ul class="menu-content">
+                    <li>Tin tức</li>
+                    <li>Trợ giúp</li>
+                    <a href="../signup.html"><li>Đăng kí</li></a>
+                    <li>Đăng nhập</li>
+                </ul>
+            </div>
+        </div>
+        <div class="search">
+            <div class="background-img">
+                <img src="../index/background.jpg" width="100%" height="250px">
+            </div>
+            <div class="search-box">
+                <div class="text">
+                    FIND YOUR NEXT PRODUCT NOW.
+                </div>
+                <div class="tb-search">
+                    <input class="text-in-tb" type="text" name="tbsearch" placeholder="Search">
+                    <button id="myBtn" onclick="javascript:location.href = '../search/search-page1.html'">Tìm kiếm</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="sidebar-menu">
+                <div class="sidebar-menu-text">
+                    MENU
+                </div>
+                <div class="element-catogory">
+                    <div>
+                        <a data-toggle="collapse" href="#collapse1">
+                            <div class="element-catogory-detail">Đồ cổ</div>
+                        </a>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <a class="sidemenu-expand" href="doco1-page1.html">Đồ cổ 1</a>
+                            <a class="sidemenu-expand" href="">Đồ cổ 2</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a data-toggle="collapse" href="#collapse2">
+                            <div class="element-catogory-detail">Đồ điện tử</div>
+                        </a>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <a class="sidemenu-expand" href="">
+                                Điện thoại
+                            </a>
+                            <a class="sidemenu-expand" href="">
+                                Laptop
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <a data-toggle="collapse" href="#collapse3">
+                            <div class="element-catogory-detail">Đồ gia dụng</div>
+                        </a>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <a class="sidemenu-expand" href="">Dụng cụ nhà bếp</a>
+                            <a class="sidemenu-expand" href="">Dụng cụ sinh hoạt</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a data-toggle="collapse" href="#collapse4">
+                            <div class="element-catogory-detail">Thời trang</div>
+                        </a>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <a class="sidemenu-expand" href="">Quần áo</a>
+                            <a class="sidemenu-expand" href="">Trang sức</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main">
+            <div class="title">
+                Đổ cổ 1
+            </div>
+            <a href="../detail.html">
+            <div class="list-content">
+                <img src="doco1/deplao.jpg">
+                <div class="element-list-product">
+                    <div class="product-name">
+                        Tông lào
+                    </div>
+                    <div class="product-bid-times-or-price">20.000 đ</div>
+                    <div class="product-bid-times-or-price">1000 lượt đấu giá</div>
+                    <div class="product-time">5:00:00</div>
+                </div>
+            </div></a>
+            <div class="list-content">
+                <img src="doco1/congoc.jpeg">
+                <div class="element-list-product">
+                    <div class="product-name">
+                        Cổ ngọc
+                    </div>
+                    <div class="product-bid-times-or-price">200.000.000 đ</div>
+                    <div class="product-bid-times-or-price">10.000 lượt đấu giá</div>
+                    <div class="product-time">27:59:01</div>
+                </div>
+            </div>
+            <div>
+                <ul class="pagination">
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="doco1-page2.html">2</a></li>
+                    <li class="disabled"><a href="#">3</a></li>
+                    <li class="disabled"><a href="#">4</a></li>
+                    <li class="disabled"><a href="#">5</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <link HREF="../index.css" REL="stylesheet">
+            <link HREF="../list.css" REL="stylesheet">
+        </div>
+</body>
+
+</html>
