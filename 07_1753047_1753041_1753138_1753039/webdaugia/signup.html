@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div class="headbar">
+            <div class="logo">
+                <img src="./index/logo.png" width="50px" height="50px">
+            </div>
+            <div class="menu">
+                <ul class="menu-content">
+                    <li>Tin tức</li>
+                    <li>Trợ giúp</li>
+                    <a href="signup.html">
+                        <li>Đăng kí</li>
+                    </a>
+                    <li>Đăng nhập</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <form>
+                <div class="container">
+                    <h1>Đăng kí</h1>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Nhập Email" name="email" required>
+                    <label for="psw"><b>Mật khẩu</b></label>
+                    <input type="password" placeholder="Nhập mật khẩu" name="psw" required>
+                    <label for="password-repeat"><b>Nhập lại mật khẩu</b></label>
+                    <input type="text" placeholder="Nhập lại mật khẩu" name="password-repeat" required>
+                    <label for="username"><b>Họ tên</b></label>
+                    <input type="text" placeholder="Nhập họ tên" name="username" required>
+                    <label for="address"><b>Địa chỉ</b></label>
+                    <input type="text" placeholder="Nhập địa chỉ" name="address" required>
+                    <p>Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="#" style="color:dodgerblue">Điều khoản</a>.</p>
+                    
+                    <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback" width="700px"></div>
+                    <button type="submit" class="signupbtn">Đăng kí</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <script src='https://www.google.com/recaptcha/api.js'></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <link HREF="index.css" REL="stylesheet">
+            <link HREF="signup.css" REL="stylesheet">
+        </div>
+</body>
+
+</html>

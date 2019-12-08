@@ -1,0 +1,9 @@
+-Run Website:
+webdaugia/index.html
+-user/pass của login:
+1.Admin:
+admin/admin
+2.Bidder:
+bidder/bidder
+3.Seller:
+seller/seller

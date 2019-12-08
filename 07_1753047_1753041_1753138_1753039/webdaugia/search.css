@@ -1,0 +1,38 @@
+.show-type{
+	overflow: auto;
+		padding-top: 10px;
+}
+.search-name-category
+{
+	float: left;
+}
+
+select{
+	height: 30px;
+	font-size: 20px;
+
+}
+
+.sort{
+	float: right;
+}
+
+.price-now{
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #d91a4a;
+	font-style: italic;
+}
+
+.element-list-product-bidder{
+	float: right;
+	margin-right: 20px;
+	min-width: 300px;
+}
+
+#icon{
+	 width:40px;
+	 height:40px;
+	 position: absolute;
+}

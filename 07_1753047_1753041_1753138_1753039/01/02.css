@@ -1,0 +1,24 @@
+.container
+{
+	position: relative;
+	
+	margin-top: 100px;
+}
+
+.hinhanh
+{
+	float:left;
+}
+.img-responsive
+{
+	position: relative;
+	margin-top: 100px;
+	margin-left: 200px;
+	width: 400px;
+	
+}
+
+.list-group-item{
+
+	width: 800px;
+}
